@@ -19,13 +19,13 @@ export default function Social({ iconSize = 'initial' }) {
             <li>
                 <a href="https://www.facebook.com/">
                     <FontAwesomeIcon icon={faFacebookF} />
-                    <span classNme="sr-only">Facebook</span>
+                    <span className="sr-only">Facebook</span>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/">
                     <FontAwesomeIcon icon={faGithub} />
-                    <span className="sr-only">Github</span>
+                    <span className="sr-only">GitHub</span>
                 </a>
             </li>
         </ul>
